@@ -14,9 +14,17 @@ function listItems() {
     console.log(listItems('item'));
 }
 
-function empty() {
-    return basket.length = 0;
-}
+// function empty() {
+//     return basket.length = 0;
+// }
 
-console.log(empty());
-console.log ( 'basket has', basket);
+// console.log(empty());
+// console.log ( 'basket has', basket);
+
+function empty() {
+    while (basket.length > 0){
+        basket.pop();
+    }
+}
+empty();
+console.log(basket);
