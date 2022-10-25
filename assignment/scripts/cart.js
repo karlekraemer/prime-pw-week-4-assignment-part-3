@@ -27,4 +27,4 @@ function empty() {
     }
 }
 empty();
-console.log(basket);
+console.log('basket contains', basket);
